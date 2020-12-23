@@ -1,0 +1,150 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    
+    .navbar-light .navbar-nav{
+         background: rgba(43,46,72,0.9);
+    }
+
+    #banner{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    #banner .banner_text h1{
+        padding: 0;
+        font-size: 21px;
+    }
+    #banner .banner_text p{
+        padding: 0;
+        font-size: 14px;
+    }
+
+    #features{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    #team{
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+
+    #team .card{
+        margin-bottom: 30px;
+    }
+    #test{
+        padding-top: 70px;
+        padding-bottom: 110px;
+    }
+    #test::before{
+        display: none;
+    }
+    #test .slider_main .slider_child h4{
+        font-size: 24px;
+    }
+
+    #down .down_text h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #contact{
+        padding-bottom: 40px;
+    }
+
+    #contact .cont_item{
+        margin-bottom: 30px;
+    }
+
+    footer .footer_text p{
+        padding: 0;
+    }
+    
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .navbar-light .navbar-nav{
+        background: rgba(43,46,72,0.9);
+   }
+
+   #banner{
+       padding-top: 150px;
+       padding-bottom: 100px;
+   }
+
+   #banner .banner_text h1{
+       padding: 0;
+       font-size: 31px;
+   }
+   #banner .banner_text p{
+       padding: 0;
+       font-size: 14px;
+   }
+
+   #features{
+       margin-top: 0;
+       margin-bottom: 50px;
+   }
+
+   #team{
+       padding-top: 70px;
+       padding-bottom: 60px;
+   }
+
+   #team .card{
+       margin-bottom: 30px;
+   }
+   #test{
+       padding-top: 70px;
+       padding-bottom: 110px;
+   }
+   #test::before{
+       display: none;
+   }
+   #test .slider_main .slider_child h4{
+       font-size: 24px;
+   }
+
+   #down .down_text h2{
+       font-size: 24px;
+       margin-bottom: 20px;
+   }
+
+   #contact{
+       padding-bottom: 40px;
+   }
+
+   #contact .cont_item{
+       margin-bottom: 30px;
+   }
+
+   footer .footer_text p{
+       padding: 0;
+   }
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .navbar-light .navbar-nav{
+        background: rgba(43,46,72,0.9);
+   }
+
+   .navbar-light .nav-item{
+       text-align: right;
+   }
+
+   .navbar-light .navbar-nav .nav-link{
+       padding: 10px;
+   }
+
+   footer .footer_text p{
+    padding: 0;
+}
+ }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
